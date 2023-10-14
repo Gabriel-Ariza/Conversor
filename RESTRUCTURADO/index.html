@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="resultado.css">
+    <title>xd</title>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2>CONVERSION DE DISTANCIAS</h2>
+
+        <input type="number" id="distance">
+    
+        <div class="input-dates">
+            <h3>Selecciona la distancia a convertir: </h3>
+            <select id="input-dates-select">
+                <option value="km">Kilómetros</option>
+                <option value="m">Metros</option>
+                <option value="cm">Centimetro</option>
+                <option value="mi">Millas</option>
+                <option value="ft">Pies</option>
+            </select>
+        </div>
+    
+    
+        <select id="output-dates-select">
+            <option value="km">Kilómetros</option>
+            <option value="m">Metros</option>
+            <option value="cm">Centimetro</option>
+            <option value="mi">Millas</option>
+            <option value="ft">Pies</option>
+        </select>
+    
+        <button id="convertir">Convertir</button>
+        <p>Resultado: <span id="cacao"></span></p>
+        <p id="respuesta">hola</p>
+
+
+        <div class="resultado" id="resultado">
+            <div class="contenido_resultado">
+                <div class="paola">
+                    <span id="cerrar_resultado" class="close">&times;</span>
+                    <h1 id="respuesta_final">EL RESULTADO ES: 23</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
